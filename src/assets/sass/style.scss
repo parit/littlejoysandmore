@@ -1,0 +1,84 @@
+@import './resets.scss';
+@import './colors.scss';
+
+body {
+    font-family: var(--ff-body);
+    font-size: var(--fs-400);
+    color: var(--clr-neutral-900);
+    display: grid;
+    grid-template-rows: 13rem auto 3rem;
+    grid-template-columns: 1fr;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    a {
+        color: var(--clr-neutral-900);
+    }
+    .row-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .column-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        padding: 6rem 20%;
+        justify-content: space-between;
+        align-items: center;
+        .blog-name-container {
+            .blog-name {
+                font-size: var(--fs-900);
+                font-weight: var(--fw-900);
+                font-family: var(--ff-heading);
+                line-height: 1;
+            }
+            .blog-name-subheader {
+                font-size: var(--fs-500);
+            }
+        }
+        nav {
+            gap: 2rem;
+            &>a {
+                margin: 5px 0;
+                
+                font-size: var(--fs-500);
+            }
+        }
+    }
+    main {
+        width: 80%;
+        margin: 0 auto;
+        gap: 10px;
+        section.allarticles {
+            width: 70%;
+            .articles-list {
+                gap: 5rem;
+            }
+            article {
+                background: #d0d0d091;
+                padding: 1rem;
+                border-radius: 10px;
+                gap: 2em;
+                justify-content: space-between;
+                .article-meta {
+                     width:70%;
+                }
+                img {
+                    width: 360px;
+                    height: 240px;
+                }
+            }
+        }
+        section.sidepanel {
+            background: #d0d0d091;
+            padding: 1rem;
+            border-radius: 10px;
+            width: auto;
+        }
+       
+    }
+    footer {
+        border: 1px dotted black;
+    }
+}
