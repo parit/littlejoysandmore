@@ -6,25 +6,15 @@ layout: 'base.njk'
 
 ---
 
-    <section class="allarticles column-container">
-        <h2 class="recent-header">Recent Articles</h2>
-        <div class="articles-list column-container">
+    <section class="featured column-container">
+        <h2 class="header">Featured Stories</h2>
+        <div class="articles-list">
             {%- for post in collections.post -%}
-                <article class="row-container">
-                    <div class="article-meta">
-                        <div class="article-header">
-                            <h3 class="article-label">
-                                <a href="{{ post.url }}">{{ post.data.title }}</a>
-                            </h3>
-                            <div class="article-date"></div>
-                        </div>
-                        <div class="article-body">
-                            {{ post.data.description }}
-                        </div>
-                    </div>
-                    <div>
-                        <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="article-image" />
-                    </div>
+                <article class="column-container">
+                    <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="article-image" />
+                    <h3 class="article-label">
+                        <a href="{{ post.url }}">{{ post.data.title }}</a>
+                    </h3>
                 </article>
             {%- endfor -%}
         </div>
