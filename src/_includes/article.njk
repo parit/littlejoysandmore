@@ -1,0 +1,21 @@
+---
+layout: 'base.njk'
+
+---
+
+ <article class="row-container">
+    <div class="article-meta">
+        <div class="article-header">
+            <h3 class="article-label">
+                {{ title }}
+            </h3>
+            <div class="article-date"></div>
+        </div>
+        <div class="article-body">
+            {{ content | safe }}
+        </div>
+    </div>
+    <div>
+        <img src="{{ image }}" alt="{{ imageAlt }}" class="article-image" />
+    </div>
+</article>
