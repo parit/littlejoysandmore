@@ -1,14 +1,17 @@
 ---
 title: Go weird, Go Vienna
+description: Aliqua magna fugiat fugiat pariatur laboris commodo deserunt
+  pariatur pariatur. Nisi do id in esse mollit. Nulla tempor deserunt aliqua est
+  sint excepteur. Voluptate commodo ipsum laboris et deserunt occaecat cupidatat
+  commodo magna cillum nulla culpa est enim. Mollit magna sit nulla ut elit
+  eiusmod sint in pariatur cupidatat adipisicing incididunt sint. Mollit laborum
+  laboris non velit reprehenderit amet elit esse.
 author: Littlejoysandmore
 date: 2019-08-12
 image: /assets/images/blogs/vienna.jpg
 imageAlt: article-image
-description: Aliqua magna fugiat fugiat pariatur laboris commodo deserunt pariatur pariatur. Nisi do id in esse mollit. Nulla tempor deserunt aliqua est sint excepteur. Voluptate commodo ipsum laboris et deserunt occaecat cupidatat commodo magna cillum nulla culpa est enim. Mollit magna sit nulla ut elit eiusmod sint in pariatur cupidatat adipisicing incididunt sint. Mollit laborum laboris non velit reprehenderit amet elit esse.
-
 ---
-
-Pariatur adipisicing in laborum eu amet amet. Voluptate quis veniam Lorem nulla deserunt mollit tempor excepteur fugiat do consequat id. In aliquip ipsum non do mollit.
+[Vienna](https://www.wien.info/en), the capital city of Austria is extravagant in its own distinctive ways. The castles that portray an elegance beyond words, the monuments that narrate the stories of an epoch, the alleys that summon to try austrian sweet delicacies, the streets that lure with good food, wine and music, the gardens that bloom with enchanting flowers and the boulevards that fascinate to explore more- Vienna dazzles all to go a little wild, a little weird and a little crazy. 
 
 Deserunt incididunt eiusmod ipsum nostrud ut et duis magna. Dolor enim duis proident esse nisi occaecat ullamco et. Cillum do irure officia velit sit id culpa enim dolor. Consectetur consequat dolore in veniam ea et. Aliquip duis nisi sint ipsum irure laborum. Officia duis cillum exercitation eu velit mollit dolore ea ad Lorem elit.
 
